@@ -2,10 +2,14 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    
-    extend: {backgroundImage: {
-      'banImage': "url('./src/assets/signs-791333.jpg')",},
-  },
+    extend: {
+      backgroundImage: {
+        banImage: "url('./src/assets/signs-791333.jpg')",
+      },
+    },
+    fontFamily: {
+      poppins: ["Poppins", "sans-serif"],
+    },
   },
   plugins: [],
 };
